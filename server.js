@@ -6,28 +6,28 @@ app.set("view engine","ejs")
 app.get("/", function(req, res){
     const items = [
         {   
-            title: "D ", 
-            message: "Desenvolver aplicativos"
+            title: "D", 
+            message: "esenvolver aplicativos"
         },
         {
-            title: "E ",
-            message: "EJS usa JavaScript"
+            title: "E",
+            message: "JS usa JavaScript"
         },
         {
-            title: "M ",
-            message: "Muito Facil"
+            title: "M",
+            message: "uito Facil"
         },
         {
-            title: "A ",
-            message: "Amor pelo Javascript"
+            title: "A",
+            message: "mor pelo Javascript"
         },
         {
-            title: "I ",
-            message: "Install EJS"
+            title: "I",
+            message: "nstall EJS"
         },
         {
-            title: "S ",
-            message: "Sintax simples"
+            title: "S",
+            message: "intax simples"
         }
     ];
     res.render("pages/index",{
